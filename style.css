@@ -1,0 +1,233 @@
+body {
+  background-color: #f4f4f9;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 800px;
+  height: 550px;
+  margin-left: 250px;
+}
+
+.container .left_col {
+  width: 38%;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 50px;
+  background-color: #36106a;
+}
+
+.container .left_col .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #ebe4e4;
+  padding-right: 5px;
+}
+
+.container .left_col .info h1 {
+  font-family: monospace;
+  font-size: 1.8rem;
+  margin-top: 20px;
+  margin-left: 18px;
+}
+
+.container .left_col .info .personal_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .left_col .info .personal_info .personal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .left_col .info .personal_info .personal .personal_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .left_col .info .personal_info .personal .personal_icon i {
+  margin-top: 20px;
+  margin-left: 18px;
+  color: rgba(255, 255, 255, 0.618);
+}
+
+.container .left_col .info .personal_info .personal .personal_icon p {
+  margin-top: 20px;
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.618);
+}
+
+.container .left_col .info .personal_info .personal p {
+  margin-top: 0px;
+  margin-left: 18px;
+  color: white;
+  font-family: monospace;
+}
+
+.container .left_col .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 120px;
+  margin-left: 20px;
+}
+
+.container .left_col .icons i {
+  margin-left: 10px;
+  color: white;
+}
+
+.container .right_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 62%;
+  height: 520px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 50px #d3c6d7;
+          box-shadow: 1px 1px 50px #d3c6d7;
+  margin-top: 65px;
+  background-color: white;
+}
+
+.container .right_col h1 {
+  font-family: monospace;
+  font-size: 1.8rem;
+  margin-top: 20px;
+  margin-left: 28px;
+  color: #36106a;
+}
+
+.container .right_col .hr {
+  width: 420px;
+  height: 1px;
+  margin-left: 28px;
+  margin-right: 40px;
+  background-color: rgba(132, 132, 221, 0.618);
+}
+
+.container .right_col .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 15px;
+  font-family: monospace;
+  width: 420px;
+  height: 420px;
+  margin-left: 28px;
+  margin-right: 40px;
+}
+
+.container .right_col .form label {
+  margin-bottom: 5px;
+  margin-top: 18px;
+  color: #362bb4;
+}
+
+.container .right_col .form input {
+  border-color: rgba(132, 132, 221, 0.618);
+  border-radius: 5px;
+  height: 55px;
+}
+
+.container .right_col .form .message {
+  height: 100px;
+}
+
+.container .right_col .form button {
+  background-color: #36106a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 60px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.container .right_col .form button:hover {
+  cursor: pointer;
+  background-color: #21f221;
+  color: #36106a;
+}
+
+@media (max-width: 500px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 375px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow-x: hidden;
+    margin: 0px;
+  }
+  .container .left_col .icons {
+    margin-top: 20px;
+  }
+  .container .left_col .icons a i {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  .container .personal {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .personal a p {
+    font-size: 8px;
+  }
+  .container .right_col {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container input,
+  .container button {
+    width: 150px;
+  }
+  .container .hr {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

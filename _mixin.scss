@@ -1,0 +1,47 @@
+@mixin container() {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 550px;
+    margin-left: 250px;
+}
+
+@mixin left_col() {
+    width: 38%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+@mixin right_col() {
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    height: 520px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 50px $shadowColor;
+    margin-top: 65px;
+}
+
+@mixin info() {
+    display: flex;
+    flex-direction: column;
+    color: rgb(235, 228, 228);
+}
+
+@mixin personal_info() {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin personal_icon() {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin form() {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: monospace;
+}
