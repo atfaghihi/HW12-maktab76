@@ -1,0 +1,11 @@
+div {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: rgb(95, 146, 146);
+    box-shadow: 5px 5px 10px rgb(188, 176, 176);
+}
